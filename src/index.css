@@ -1,13 +1,69 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI',  'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+MuiPaper-root {
+  background-color: #fff;
+}
+Form{
+  background-color: #fff;
+  width: 90%;
+  margin:  auto 10%;
+}
+
+.sidebarWrapper {
+  padding: 20px;
+  color: #555;
+}
+
+.sidebarMenu {
+  margin-bottom: 10px;
+}
+
+.sidebarTitle {
+  margin-left: 1.7vw;
+  font-size: 20px;
+  color: rgb(240, 240, 255);
+}
+
+.sidebarSubTitle {
+  font-size: 15px;
+  color: #e9dae9;
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 5px;
+}
+
+.sidebarListItem {
+  height: 5vh;
+  padding: 5%;
+  margin: 5%;
+  width: 110%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  /* background-color: rgb(240, 240, 255); */
+  background-color: white;
+}
+
+.sidebarIcon{
+    margin-right: 5px;
+    font-size: 20px !important;
 }
